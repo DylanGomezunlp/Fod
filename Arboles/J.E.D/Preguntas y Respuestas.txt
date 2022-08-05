@@ -1,0 +1,46 @@
+- Por que lo hiciste?
+  - Tenia el tiempo, las ganas y la voluntad. Solo se me ocurrio la idea para ver arboles y una cosa llevo a la otra
+
+- Por que hay algoritmos/instrucciones que no se vieron en CADP y Taller de Programacion?
+  - En cuanto a instrucciones necesitaba alguna manera de lograr ciertas cosas en pantalla mas comodamente,
+    los algoritmos que no vimos me parecieron un desafio entretenido inventarmelos
+
+- Por que escribis tan mal?
+  - La verdad ni idea, pero no es algo que me preocupe
+
+- Por que no hay limites para algunos parametros ingresados por el usuario?
+  - Es divertido ver como se rompe/buguea un programa con valores para los cuales no fueron diseñados
+
+- Cuanto tiempo te llevo hacer el programa entero?
+  - Me demore al rededor de una semana de la cual abre trabajado 5-6 dias
+
+- Copias/ buscaste codigo o informacion?
+  - Aproximadamente me puedo adjudicar el 95% del programa, el resto son consultas de como funcionan ciertas
+    instrucciones en https://wiki.freepascal.org/
+
+- Este es el unico programa que hiciste?
+  - No, ademas tengo un Batalla Naval, un Bingo (con multijugador simulado) y un App para Calcular la mitad
+    de ejercicios de Mat 1 (materia de facultad). Tambien otros programitas mas chiquitos sin importancia
+  - Todos en pascal
+
+- Te puedo escribir/hablar?
+  - Obvio que si, por que no?
+
+- Programas antes de la carrera?
+  - No, una vez aduino para un autito pero nada a comparacion con lo que aprendi en medio año de carrera
+
+- Por que este block de notas?
+  - Me daba la gana tener una seccion de preguntas frecuentes
+
+- Tenes mucho tiempo libre, no?
+  - Si te hace feliz te digo que si
+
+- Tenes otro proyecto pensado?
+  - Ideas se me ocurren pero termine con pascal de momento, fue linda travesia, asique de momento no pienso hacer nada mas
+    Java: 'La semana que viene nos conocemos pa'
+
+- Testeas todos los algoritmos/programas?
+  - Si y no, testeo lo suficiente como para que ande y trato de cubrir los casos mas comunes de errores/resultados incorrectos
+
+- Hay mas preguntas?
+  - No, ya me aburri de escribir, writeln('  Adios :)');

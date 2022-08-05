@@ -1,0 +1,22 @@
+Saturacion progresiva:
+    *El metodo consiste en almacenar un registro en la direccion siguiente mas proxima alk nodo donde se produce Saturacion
+    *El metodo necesita indicar si una direccion estuvvo completa anteriormente, debe ser marcada como direccion ya saturada
+    a fin de no impedir la busqueda pontecial de registros
+Saturacion progresiva encadenada:
+    *La Saturacion progresiva encadenada funciona igual que su antecesor, solamente que cuando se encuentra la nueva posicion
+    esta se encadena o enlaza con la direccion base inicial generando una cadena de busqueda de elementos
+    *Cuando hay una baja, hay que cambiar los enlaces
+Saturacion progresiva encadenada con area de desbordes por separado:
+    *Ante la ocurrencia de overflow, los registros son dispersados en nodos que no se corresponden con su direccion base
+    original. Asi, a medida que se completa un archivo por dispersion, pueden existir muchos registros ocupando direcciones
+    que originalmente no les correspondias, disminuyendo la perfomance original del metodo de hashing utilizado.
+    Para evitar estas situaciones, se sugiere como alternativa el uso del area de desbordes por separado. Aqui se distinguen
+    dos tipos de nodos: aquellos direccionables y aquellos de reserva, que solo podran ser utilizados en caso de saturacion pero que 
+    no son alcanzables por la funsion de hasg.
+Doble dispersion:
+    *El metodo consiste en disponer de dos funciones de hash. la primera obtiene a partir de la llave la direccion base, en la cual el
+    registro sera ubicado.
+    De producirse overflow, se utilizara una segunda funcion de hash. Esta segunda funcion no retorna una direccion, sino que su
+    resultado es un despplazamiento. este despplazamiento se suma a la direccion base obtenida con la primera funcion, asi generando
+    la nueva direccion donde se intentara ubicar el registro. En caso de generarse nuevamente overflow, se tiene que aplicar la segunda funcion
+    de manera reiterada hasta encontrar una direccion con espacio suficiente para albergar el registro

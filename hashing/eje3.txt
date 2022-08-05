@@ -1,0 +1,11 @@
+Se define densidad de empaquetamiento (DE) como la relacion entre el espacio disponible para el archivo de datos
+y la cantidad de registros que integran dicho archivo
+La formula es la siguiente
+
+DE = R 
+    ----
+    RPN*n
+
+r=cantidad de registros que componen un archivo
+rpn= registros por nodo
+n=cantidad de nodos direccionables

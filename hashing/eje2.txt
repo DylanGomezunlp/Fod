@@ -1,0 +1,8 @@
+las colisiones son cuando un algoritmo de hashing envia dos registros a la misma direccion de memoria.
+Los registros que tienen el mismo valor mapeado en memoria luego de una funsion de hashing se denominan sinonimos.
+El registro en saturacion o overflow, es cuando un registro recive mas datos de los que puede contener, y existen varias politicas
+para manejar esos casos, en la catedra vemos 4:
+*saturacion progresiva
+*saturacion progresiva encadenada
+*saturacion progresiva encadenada con area de desvorde separada
+*dispercion doble
